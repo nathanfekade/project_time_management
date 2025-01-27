@@ -1,3 +1,5 @@
 *.pyc
 __pycache__/
 
+checklist.txt
+db.sqlite3
