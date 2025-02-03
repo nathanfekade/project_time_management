@@ -4,3 +4,4 @@ __pycache__/
 checklist.txt
 db.sqlite3
 database_design.txt
+migrations
