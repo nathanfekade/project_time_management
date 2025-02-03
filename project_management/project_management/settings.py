@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tasks',
     'users',
-    'rest_framework'
+    'rest_framework',
+    'rest_framework_swagger',
+    'drf_yasg',
 
 ]
 
