@@ -10,3 +10,10 @@ class Task(models.Model):
 
     class Meta:
         ordering = ['created_at']
+
+class categories(models.Model):
+    title = models.CharField(max_length=100)
+    task = models.ManyToManyField(Task)
+
+    class meta:
+        ordering = ['title']
